@@ -1,11 +1,16 @@
+=============================================================
+
 1.3inch OLED display HAT for Raspberry Pi, 128x64 pixels, SPI/I2C interface
 Overview
-This is an OLED display HAT for Raspberry Pi, 1.3inch diagonal, 128x64 pixels, with embedded controller, communicating via SPI or I2C interface.
+This is an OLED display HAT for Raspberry Pi, 1.3inch diagonal, 128x64 pixels, 
+with embedded controller, communicating via SPI or I2C interface.
 
 Trying to add a control interface for your Pi? This compact display would be the ideal choice.
 
 Features
-Standard Raspberry Pi connectivity, compatible with and direct-pluggable onto Raspberry Pi 2B/3B/3B+/Zero/Zero W
+===========
+Standard Raspberry Pi connectivity, compatible with and direct-pluggable onto 
+Raspberry Pi 2B/3B/3B+/Zero/Zero W
 Optional interfaces: 4-wire SPI, 3-wire SPI, I2C, configured via onboard resistor
 1x joystick (5-position), 3x pushbuttons, handy and useful
 Comes with development resources and manual (examples for Raspberry Pi/Arduino/STM32)
@@ -15,22 +20,25 @@ Interface: 4-wire SPI, 3-wire SPI, I2C
 Display color: blue
 Resolution: 128x64
 Operating voltage: 3.3V
+
+
 Interface
-SYMBOL	Raspberry Pi PIN (BCM)	DESCRIPTION
-KEY1	P21	Button 1/GPIO
-KEY2	P20	Button 2/GPIO
-KEY3	P16	Button 3/GPIO
-Joystick Up	P6	Joystick Up
-Joystick Down	P19	Joystick Down
-Joystick Left	P5	Joystick Left
-Joystick Right	P26	Joystick Right
-Joystick Press	P13	Joystick Press
-SCLK	P11/SCLK	SPI clock input
-MOSI	P10/MOSI	SPI data input
-DC	P24	Data/Command selection (high for data, low for command)
-CS	P8/CE0	Chip selection, low active
-RST	P25	Reset, low active
-Dimensions
-1.3inch OLED HAT dimensions
+===========
+SYMBOL			Raspberry Pi PIN (BCM)	DESCRIPTION
+KEY1				P21					Button 1/GPIO
+KEY2				P20					Button 2/GPIO
+KEY3				P16					Button 3/GPIO
+Joystick Up			P6					Joystick Up
+Joystick Down		P19					Joystick Down
+Joystick Left		P5					Joystick Left
+Joystick Right		P26					Joystick Right
+Joystick Press		P13					Joystick Press
+SCLK				P11/SCLK			SPI clock input
+MOSI				P10/MOSI			SPI data input
+DC					P24					Data/Command selection (high for data, low for command)
+CS					P8/CE0				Chip selection, low active
+RST					P25					Reset, low active
+
 Development Resources
+========================
 Wiki : www.waveshare.com/wiki/1.3inch_OLED_HAT
